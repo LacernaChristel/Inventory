@@ -4,7 +4,7 @@ import "./dataForm.css";
 import Navbar from "./navbar";
 import jsPDF from "jspdf";
 
-const API_URL = "https://main--sensational-madeleine-bd1971.netlify.app/.netlify/functions/api/";
+const API_URL = "https://steady-marshmallow-8d4ae8.netlify.app/.netlify/functions/api/";
 
 function DataForm() {
   const [inventory, setInventory] = useState([]);
