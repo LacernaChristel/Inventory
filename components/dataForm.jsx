@@ -77,7 +77,7 @@ function DataForm() {
   const generateReport = () => {
     const doc = new jsPDF();
     let y = 10;
-    doc.text("School Supplies Inventory Report", 10, y);
+    doc.text("Fruits Inventory Report", 10, y);
     y += 10;
   
     inventory.forEach((item) => {
@@ -140,12 +140,12 @@ function DataForm() {
       {error && <div>Error: {error}</div>}
       <div className="table-container">
         <table>
-          <thead className="ban">
+          <thead>
             <tr>
               <th>ID</th>
               <th>Items</th>
               <th>Quantity</th>
-              <th>Order</th>
+              <th>Reorder</th>
               <th>Actions</th>
             </tr>
           </thead>
