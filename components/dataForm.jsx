@@ -115,7 +115,7 @@ function DataForm() {
               <div className="form-row">
                 <input
                   type="text"
-                  value={name}
+                  value={Item}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Name"
                 />
